@@ -1,0 +1,31 @@
+{
+  "name": "mesn-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "pdf-creator-node": "^1.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  }
+}
